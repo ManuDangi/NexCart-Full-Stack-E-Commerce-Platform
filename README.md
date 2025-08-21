@@ -59,14 +59,8 @@ jwt.secret=your_strong_jwt_secret_key
 cd nexcart/frontend
 
 # . Dependencies install 
-npm install
-
-# . .env file banayein
-# Frontend root directory mein .env 
-REACT_APP_API_URL=http://localhost:8080
-
 # . Application  start 
-npm start
+Run AS :- Java Application 
 
 
 📄 API Endpoints
