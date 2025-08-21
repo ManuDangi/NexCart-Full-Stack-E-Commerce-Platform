@@ -36,4 +36,76 @@ public class Cart {
 	@Transient
 	private Double totalOrderPrice;
 
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public UserDtls getUser() {
+		return user;
+	}
+
+	public void setUser(UserDtls user) {
+		this.user = user;
+	}
+
+	public Product getProduct() {
+		return product;
+	}
+
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	public Integer getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(Integer quantity) {
+		this.quantity = quantity;
+	}
+
+	public Double getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(Double totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
+	public Double getTotalOrderPrice() {
+		return totalOrderPrice;
+	}
+
+	public void setTotalOrderPrice(Double totalOrderPrice) {
+		this.totalOrderPrice = totalOrderPrice;
+	}
+
+	public Cart(Integer id, UserDtls user, Product product, Integer quantity, Double totalPrice,
+			Double totalOrderPrice) {
+		super();
+		this.id = id;
+		this.user = user;
+		this.product = product;
+		this.quantity = quantity;
+		this.totalPrice = totalPrice;
+		this.totalOrderPrice = totalOrderPrice;
+	}
+
+	public Cart() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Cart [id=" + id + ", user=" + user + ", product=" + product + ", quantity=" + quantity + ", totalPrice="
+				+ totalPrice + ", totalOrderPrice=" + totalOrderPrice + "]";
+	}
+	
+	
+
 }
