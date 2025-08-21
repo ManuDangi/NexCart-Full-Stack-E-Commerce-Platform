@@ -36,15 +36,15 @@ Maven 3.2+
 Node.js 18.x or later
 MySQL Server 8.0 or later
 
-# 1. Repository ko clone karein
+# 1. Repository 
 git clone https://github.com/ManuDangi/NexCart-Full-Stack-E-Commerce-Platform.git
 
-# 2. Backend directory mein navigate karein
+# 2. Backend directory 
 cd nexcart/backend
 
-# 3. application.properties file configure karein
-# src/main/resources/application.properties file open karein aur
-# apne MySQL database ke details, aur JWT secret key update karein.
+# 3. application.properties file configure 
+# src/main/resources/application.properties file open 
+
 
 Backend Setup
 spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
